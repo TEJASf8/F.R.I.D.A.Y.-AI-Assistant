@@ -1,3 +1,11 @@
+# Hide environment keys
 .env
+
+# Hide local persistent databases
+*.db
 friday_memory.db
+
+# Hide python temporary processing folders
 __pycache__/
+.pytest_cache/
+*.pyc
