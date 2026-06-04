@@ -1,11 +1,11 @@
-# Hide environment keys
+# Local Environment Variables Vault (CRITICAL)
 .env
 
-# Hide local persistent databases
+# Local Database & Core Memory Files
 *.db
-friday_memory.db
+*.sqlite3
 
-# Hide python temporary processing folders
+# Python Caching & Audio Buffer Logs
 __pycache__/
-.pytest_cache/
 *.pyc
+.pytest_cache/
